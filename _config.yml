@@ -21,8 +21,9 @@
 title: GIT 101
 email: engineering@dasaudio.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Welcome to the wonderfull world of GIT
-url: https://pepe-fm.github.io/git101/ # the base hostname & protocol for your site, e.g. http://example.com
+  The Wonderful World of GIT
+url: https://pepe-fm.github.io # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/git101" # the subpath of your site, e.g. /blog
 github_username:  Pepe-FM
 
 # Build settings

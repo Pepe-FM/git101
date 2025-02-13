@@ -4,15 +4,11 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+Welcome to Git 101, where we take our first steps into the wonderful (and occasionally chaotic) world of version control! 🎩✨
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+This introduction talk will you how to commit, branch, merge, and (most importantly) undo your mistakes like they never happened. 🕵️‍♂️💨
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+If you've ever broken something and wished for an undo button, congrats—you’re about to learn Git! By the end of this, you’ll be pushing code like a pro (or at least confidently saying, “I think I know what I’m doing” 🤞).
 
+Happy coding, and may your merge conflicts be rare! 🚀🐙
 
-[jekyll-organization]: https://github.com/jekyll

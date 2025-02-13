@@ -1,2 +1,43 @@
 // Placeholder to allow defining custom styles that override everything else.
 // (Use `_sass/minima/custom-variables.scss` to override variable defaults)
+// POST GRID
+.post-list {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  column-gap: var(--step-size-xl);
+  row-gap: var(--step-size-xl);
+}
+
+.post-item {
+  width: 15rem;
+  height: 18rem;
+  padding: var(--step-size-md);
+  border-radius: var(--border-radius-lg);
+  border-style: solid;
+  border-width: 4px;
+  border-color: var(--color-secondary);
+}
+
+.post-body {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  h3 {
+    margin-bottom: 0;
+  }
+
+}
+
+.blog-roll-image {
+  height: 85%;
+}
+
+// POST ITEM
+.post-featured-image {
+  max-width: 30vw;
+}
