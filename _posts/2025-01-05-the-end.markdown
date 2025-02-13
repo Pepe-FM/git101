@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "the end"
+date:   2025-01-05 12:19:05 +0100
+categories: git
+hero: /assets/images/post_25.png
+include_scripts: /assets/scripts/confetti.js
+---
+
