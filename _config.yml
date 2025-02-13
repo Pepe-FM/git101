@@ -30,6 +30,34 @@ theme: minima
 plugins:
   - jekyll-feed
 
+# Minima specific settings, which are only available from Minima 3.0 onward.
+minima:
+  # Minima skin selection.
+  skin: classic
+
+  # Set to `true` to show excerpts on the homepage.
+  #show_excerpts: false
+
+  # Minima date format.
+  # The default value is "%b %d, %Y" (e.g. Nov 14, 2023) 
+  # Refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this.
+  #date_format: "%b-%d-%Y"
+
+  # Social Media Links
+  # Renders icons via Font Awesome Free webfonts CDN, based on ordered list of entries.
+  #
+  # Entry keys:
+  # * title    Tooltip rendered on hovering over icon.
+  # * icon     Font Awesome icon id. `github` corresponds to `fa-github`.
+  # * url      Full URL of social profile.
+  #social_links:
+  #  - title: Minima Theme repository at GitHub
+  #    icon: github
+  #    url: "https://github.com/jekyll/minima"
+  #  - title: Jekyll at X (formerly Twitter)
+  #    icon: x-twitter
+  #    url: "https://x.com/jekyllrb"
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
