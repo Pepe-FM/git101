@@ -43,7 +43,7 @@ html {
   p, blockquote, pre,
   ul, ol, dl, figure,
   %vertical-rhythm {
-    margin-bottom: $spacing-unit * .5;
+    margin-bottom: '$spacing-unit * .5';
   }
   
   hr {
@@ -111,16 +111,16 @@ html {
   /**
    * Links
    */
-  a {
-    color: $link-base-color;
+   a {
+    color: var(--color-secondary);
     text-decoration: none;
   
     &:visited {
-      color: $link-visited-color;
+      color: var(--color-secondary);
     }
   
     &:hover {
-      color: $link-hover-color;
+      color: var(--color-warning);
       text-decoration: underline;
     }
   
@@ -132,6 +132,7 @@ html {
       }
     }
   }
+  
   
   
   /**

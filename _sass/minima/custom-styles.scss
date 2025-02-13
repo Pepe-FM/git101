@@ -3,14 +3,14 @@
 // POST GRID
 .post-list {
   display: grid;
-  grid-template-columns: auto;
+  grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
   grid-template-rows: auto;
-  column-gap: var(--step-size-xl);
-  row-gap: var(--step-size-xl);
+  column-gap: var(--step-size-base);
+  row-gap: var(--step-size-base);
 }
 
 .post-item {
-  width: 15rem;
+  width: 16rem;
   height: 18rem;
   padding: var(--step-size-md);
   border-radius: var(--border-radius-lg);
@@ -38,6 +38,21 @@
 }
 
 // POST ITEM
+.post-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
 .post-featured-image {
-  max-width: 30vw;
+  max-width: 75%;
+}
+
+// PAGE NAVIGATION
+.page-navigation {
+  width: 100%;
+  display: grid;
+  grid-template-columns: max-content 1fr max-content;
+  
 }

@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "Qué es GIT?"
+date:   2025-01-30 12:19:05 +0100
+categories: git
+hero: /assets/images/post_00.png
+---
+
