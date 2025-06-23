@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "danger"
+date:   2025-01-13 12:19:05 +0100
+categories: git
+hero: /assets/images/post_17.png
+---
+

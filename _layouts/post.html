@@ -21,7 +21,15 @@ layout: base
     <a class="prev" href="{{page.next.url | relative_url}}">&laquo; {{page.next.title}}</a>
     {% endif %}
   </div>
-  <div class="dummy-item"></div>
+  <div class="dummy-item">
+    {% if page.include_scripts %}
+      <button id="confetti" class="confetti-button">🎉</button>
+      {% for include_script in page.include_scripts %}
+        <script type='text/javascript' src='{{ include_script | relative_url}}'></script>
+      {% endfor %}
+    {% endif %}
+
+  </div>
   <div class="nav-item">
     {% if page.previous.url %}
     <a class="next" href="{{page.previous.url | relative_url}}">{{page.previous.title}} &raquo;</a>

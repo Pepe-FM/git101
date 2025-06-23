@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "git push"
+date:   2025-01-20 12:19:05 +0100
+categories: git
+hero: /assets/images/post_10.png
+---
+
